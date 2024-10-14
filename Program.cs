@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            City city = new City();
+
+            city.DisplayCity();
+            city.MovePeople();
+            Thread.Sleep(2000);// vanta 2 sekunder
+
         }
     }
 }
